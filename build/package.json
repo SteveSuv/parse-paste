@@ -1,0 +1,16 @@
+{
+  "name": "parse-paste",
+  "version": "1.0.1",
+  "type": "module",
+  "description": "parse clipboard data when trigger paste event",
+  "keywords": [
+    "paste",
+    "react",
+    "clipboard",
+    "typescript",
+    "parse"
+  ],
+  "repository": "https://github.com/SteveSuv/parse-paste",
+  "author": "SteveSuv",
+  "license": "MIT"
+}
