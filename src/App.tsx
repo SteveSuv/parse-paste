@@ -3,6 +3,7 @@ import { parsePaste } from ".";
 
 export const App = () => {
   const [clipboardMap, setClipboardMap] = useState("");
+  
   return (
     <div
       style={{
@@ -16,7 +17,6 @@ export const App = () => {
         onPaste={(e) => {
           const result = parsePaste(e);
           setClipboardMap(JSON.stringify(result, null, 2));
-          console.log(222, result.imageList[0].file);
         }}
       />
       <textarea readOnly rows={20} value={clipboardMap} />

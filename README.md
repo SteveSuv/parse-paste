@@ -13,12 +13,12 @@ pnpm i parse-paste
 ```tsx
 import { parsePaste } from "parse-paste";
 
-export default () => (
+export const Demo = () => (
   <textarea
     placeholder="paste anything here"
     onPaste={(e) => {
       const result = parsePaste(e);
-      console.log(222, result);
+      console.log(result);
     }}
   />
 );
